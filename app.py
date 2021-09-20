@@ -3,6 +3,9 @@ import pickle
 import pandas as pd
 import requests
 import base64
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 bg = "static/movie.jfif"
 bg_ext = "jfif"
@@ -46,7 +49,13 @@ def recommend(movie):
 movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+tags = pickle.load(open('tags.pkl', 'rb'))
+
+cv = CountVectorizer(max_features=5000, stop_words='english')
+vectors = cv.fit_transform(tags).toarray()
+
+similarity = cosine_similarity(vectors)
+
 
 st.title('Movie Recommender System')
 
