@@ -82,7 +82,7 @@
 
 
 ## User Interface:
-![](https://github.com/adityanaranje/MOVIE-RECOMMENDATION/blob/main/static/image/movie_recommend.jpg)
+![](https://github.com/adityanaranje/MOVIE-RECOMMENDATION/blob/master/static/movie_recommend.jpg)
 
 
 
