@@ -10,12 +10,23 @@
 ## Table of Contents
 <details>
 <summary>Click to expand</summary>
-this is hidden
+1. Problem Statement
+2. Aim/Goal
+    3. Approach
+    4. Dataset
+    5. Tools Used
+    6. Platform Used
+    7. Operations Performed
+    8. Deployment Link
+    9. User Interface
 </details>
 
 
 ## Problem Statement:
-### -> Nowadays, shopping malls and Big Marts keep track of individual items sales data in order to forecast future client demand and adjust inventory management. In a data warehouse, these data stores hold a significant amount of consumer information and particular item details. By mining the data store from the data warehouse, more anomalies and patterns can be discovered.
+### -> Just like Netflix many other apps are all about connecting people to the movies they love. For that it is must to provide user's what they need. So for that it necessary to know what the user need and that can be possible using recommendation systems. This gives a better user experience.
+
+## Aim/Goal :
+## To make a basic end to end web application for movie recommendation using content based filtering.
 
 ## Approach
 ### -> The classical machine learning tasks like Data collection, Data Cleaning, Feature Selection, Feature Engineering, Model Deployment. Created the vectores for each movie which will be used for recommendation of movie for corresponding selected movie.
