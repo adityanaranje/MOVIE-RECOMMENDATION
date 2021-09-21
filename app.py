@@ -49,12 +49,7 @@ def recommend(movie):
 movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
-tags = pickle.load(open('tags.pkl', 'rb'))
-
-cv = CountVectorizer(max_features=5000, stop_words='english')
-vectors = cv.fit_transform(tags).toarray()
-
-similarity = cosine_similarity(vectors)
+similarity = pickle.load(open('similarity.pkl','rb'))
 
 
 st.title('Movie Recommender System')
