@@ -18,7 +18,7 @@ this is hidden
 ### -> Nowadays, shopping malls and Big Marts keep track of individual items sales data in order to forecast future client demand and adjust inventory management. In a data warehouse, these data stores hold a significant amount of consumer information and particular item details. By mining the data store from the data warehouse, more anomalies and patterns can be discovered.
 
 ## Approach
-### -> The classical machine learning tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and Model Testing. Try out different machine learning algorithms that's best fit for the above case.
+### -> The classical machine learning tasks like Data collection, Data Cleaning, Feature Selection, Feature Engineering, Model Deployment. Created the vectores for each movie which will be used for recommendation of movie for corresponding selected movie.
 
 ## Dataset
 ### The dataset is taken from kaggle.
@@ -52,20 +52,27 @@ this is hidden
 ## Operations Performes:
 ### 1. Data Collection: 
 #### -> Data is taken from kaggle which is a TMDB 5000 Movie Dataset.
+
 ### 2. Data Cleaning:
 #### -> Dataset may consists of some missing values and duplicate values so we will remove these impurities.
+
 ### 3. Feature Selection:
 #### -> We will not take all of the feature columns . We will only choose which we think can help us to make recommendations.
+
 ### 4. Feature Engineering: 
 #### -> For recommendation system we requires some tags which we are gonig to extract from some of the selected features.
+
 ### 5. Stemming 
-#### -> Performing stemming operations on the tags column using CounterStemming. For that we use python's nltk module. Stemming is the process of reducing a word to its word stem that affixes to suffixes and prefixes or to the roots of words known as a lemma. 
-### 6. Hyperparameter Tuning:
-#### -> To gain more accuracy on the data we perform hyperparameter tuning. This process take much time but can give us better results.
-### 7. Model Evaluation and Selection: 
-#### -> We choose our model based on their time taken and R2 value.
+#### -> Performing stemming operations on the tags column using PorterStemming. For that we use python's nltk module. Stemming is the process of reducing a word to its word stem that affixes to suffixes and prefixes or to the roots of words known as a lemma. For example a stemming algorithm reduces the words “chocolates”, “chocolatey”, “choco” to  ### the root word, “chocolate” and “retrieval”, “retrieved”, “retrieves” reduce to the stem “retrieve”.
+
+### 6. Creating Vectors:
+#### -> Based on the tags column we formed the vectors for corresponding movies and then calculate the cosine distance i.e. using Cosine-similarity. Cosine similarity is a  metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.  
+
+### 7. Performing Recommendations: 
+#### -> Based on the top five closest vectors by cosine-similarity we recommend the five movies for the corresponding selected movie.
+
 ### 8. Model Deployment:
-#### -> Using flask library the model is deployed on heroku.
+#### -> Using streamlit module and github the model is deployed on heroku.
 
 
 
