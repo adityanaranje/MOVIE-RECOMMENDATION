@@ -82,7 +82,7 @@
 
 
 ## User Interface:
-![](https://github.com/adityanaranje/MOVIE-RECOMMENDATION/blob/main/static/image/sales_interface.jpg)
+![](https://github.com/adityanaranje/MOVIE-RECOMMENDATION/blob/main/static/image/movie_recommend.jpg)
 
 
 
