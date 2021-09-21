@@ -1,4 +1,4 @@
-# Project Title : STORE SALES PREDICTION
+# Project Title : MOVIE RECOMMENDATION USING CONTENT BASED FILTERING.
 # Technologies : Machine Learning Technology
 # Domain : Sales And Marketing
 
@@ -72,16 +72,11 @@
 #### -> Using flask library the model is deployed on heroku.
 
 
-## Database:
-### -> The data is stored in the cassandra database which is connected with our program using cassandra drive of python.
 
-
-## Logging:
-### -> Using python's logging library we are tracking our logs which are obtained during program execution. This helps to understand our code in more efficient way and resolve any error or bug.
 
 
 ## Model Deployment Link:
-#### -> Heroku Link: https://store-sales-predictor.herokuapp.com/
+#### -> Heroku Link: https://movie-recommendation-system-an.herokuapp.com/
 ##### Have a patience it will take a little bit to load.
 
 
