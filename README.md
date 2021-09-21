@@ -1,3 +1,7 @@
+<p align="center">
+  PERSONAL PROJECT
+  </p>
+
 # Project Title : MOVIE RECOMMENDATION USING CONTENT BASED FILTERING.
 # Technologies : Machine Learning Technology
 # Domain : Sales And Marketing
