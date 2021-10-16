@@ -7,19 +7,12 @@
 # Domain : Sales And Marketing
 
 
-## Table of Contents
-<details>
-<summary>Click to expand</summary>
-1. Problem Statement
-2. Aim/Goal
-    3. Approach
-    4. Dataset
-    5. Tools Used
-    6. Platform Used
-    7. Operations Performed
-    8. Deployment Link
-    9. User Interface
-</details>
+## What actually is Recommendation System?
+### A recommendation engine is a class of machine learning which offers relevant suggestions to the customer.  Before the recommendation system, the major tendency to buy was to take a suggestion from friends. But Now Google knows what news you will read, Youtube knows what type of videos you will watch based on your search history, watch history, or purchase history. A recommendation system helps an organization to create loyal customers and build trust by them desired products and services for which they came on your site. The recommendation system today are so powerful that they can handle the new customer too who has visited the site for the first time. They recommend the products which are currently trending or highly rated and they can also recommend the products which bring maximum profit to the company. For this particular project we have used collabrotive filtering.
+
+## What is content based filtering?
+
+### The algorithm recommends a product that is similar to those which used as watched. In simple words, In this algorithm, we try to find finding item look alike. For example, a person likes to watch Sachin Tendulkar shots, so he may like watching Ricky Ponting shots too because the two videos have similar tags and similar categories. Only it looks similar between the content and does not focus more on the person who is watching this. Only it recommends the product which has the highest score based on past preferences. :- Analytics Vidhya
 
 
 ## Problem Statement:
