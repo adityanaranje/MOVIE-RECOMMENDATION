@@ -42,8 +42,7 @@
 ### 5. NLTK
 ### 7. Pickle
 ### 8. Requests
-### 9. Pybase64
-### 10. Heroku
+### 9. Heroku
 
 
 
