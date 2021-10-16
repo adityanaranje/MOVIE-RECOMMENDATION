@@ -16,7 +16,7 @@
 
 
 ## Problem Statement:
-### -> Just like Netflix many other apps are all about connecting people to the movies they love. For that it is must to provide user's what they need. So for that it necessary to know what the user need and that can be possible using recommendation systems. This gives a better user experience.
+### -> Just like Netflix many other apps are all about connecting people to the movies they love. For that it is must to provide user's what they need. So for that it is necessary to know what the user need and that can be possible using recommendation systems. This gives a better user experience.
 
 ## Aim/Goal :
 ## To make a basic end to end web application for movie recommendation using content based filtering.
