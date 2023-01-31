@@ -83,7 +83,7 @@
 
 
 ## Model Deployment Link:
-#### -> Heroku Link: https://movie-recommendation-system-an.herokuapp.com/
+#### -> App Link: https://movie-recommendation-system-an.herokuapp.com/
 ##### Have a patience it will take a little bit to load.
 
 
